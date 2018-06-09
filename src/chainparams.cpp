@@ -151,12 +151,12 @@ public:
         /** Genesis Block TestNet */
         /*
         Hashed TestNet Genesis Block Output
-//        block.hashMerkleRoot == 0x0d37696317e9744d504eebb0acf83488bfc1dae4680bd47c45ea99c29ffdaa74
+        block.hashMerkleRoot == 0x0d37696317e9744d504eebb0acf83488bfc1dae4680bd47c45ea99c29ffdaa74
         block.nTime = 1528281163
         block.nNonce = 0
         */
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0d37696317e9744d504eebb0acf83488bfc1dae4680bd47c45ea99c29ffdaa74"));
+//      assert(hashGenesisBlock == uint256("0x0d37696317e9744d504eebb0acf83488bfc1dae4680bd47c45ea99c29ffdaa74"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
